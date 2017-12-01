@@ -1,0 +1,61 @@
+@media screen and (min-width: 300px) and (max-width: 600px) {
+	#description{
+		height: 100%;
+		padding: 30px;
+	}
+	.photo{
+		border-radius: 5px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	.bloc1 h1{
+		font-size: 40px;
+	}
+	.photodescription{
+		font-size: 20px;
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 15px;
+		vertical-align:top;
+		display: block;
+	}
+	#bas{
+		display: none;
+	}
+
+
+	#bloc2{
+		height: 100%;
+		padding: 30px;
+	}
+	#experience{
+		width: 100%;
+		display: block;
+	}
+	#diplome{
+		width: 100%;
+		display: block;
+		float: none;
+	}
+	#diplome h1{
+		margin-left: 5px;
+	}
+
+
+	#bloc3{
+		height: 100%;
+		padding: 30px;
+	}
+	#competence{
+		width: 100%;
+	}
+	#interet{
+		width: 100%;
+		margin-left: 0px;
+		display: block;
+	}
+	footer{
+		height: 100%;
+		padding: 30px;
+	}
+}	

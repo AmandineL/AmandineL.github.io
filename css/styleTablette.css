@@ -1,0 +1,45 @@
+@media screen and (min-width: 600px) and (max-width: 1020px) {
+	#description{
+		height: 100%;
+		padding: 30px;
+	}
+	.photo{
+		border-radius: 5px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	.photodescription{
+		font-size: 20px;
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 15px;
+		vertical-align:top;
+		display: block;
+	}
+	#bas{
+		display: none;
+	}
+	#bloc2{
+		height: 100%;
+		padding: 30px;
+	}
+	#experience{
+		vertical-align: top;
+	}
+	#diplome{
+		float: none;
+	}
+	
+	#bloc3{
+		height: 100%;
+		padding: 30px;
+	}
+	#competence{
+		width: 100%;
+	}
+	#interet{
+		width: 100%;
+		margin-left: 0px;
+		display: block;
+	}
+}	

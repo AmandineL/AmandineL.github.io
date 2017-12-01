@@ -1,0 +1,402 @@
+$color_rose: #F5E1DA;
+$color_vert: #476268;
+/*Block 1 - Description*/
+
+@mixin marginG {
+  margin: 7px 0px 7px 50px;
+}
+
+#description {
+  background-color: $color_rose;
+  color: $color_vert;
+  height: 60vh;
+  padding: 20vh 5vh 20vh 5vh;
+}
+
+.photo {
+  border-radius: 5px;
+  width: 41%;
+  height: 30%;
+  display: inline-block;
+  margin-left: 4%;
+}
+
+.bloc1 {
+  border: 1px solid $color_vert;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3%;
+  padding-top: 5%;
+  img {
+    width: 38%;
+    height: 30%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 42px;
+    padding-bottom: 15px;
+  }
+  h2 {
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+}
+
+.textbloc1 {
+  padding-bottom: 30px;
+}
+
+.photodescription {
+  display: inline-block;
+  width: 49%;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 15px;
+  vertical-align: top;
+  h1 {
+    font-size: 30px;
+    margin-bottom: 3%;
+  }
+  p {
+    font-size: 20px;
+  }
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.info tr {
+  td {
+    width: 50%;
+  }
+  height: 35px;
+}
+
+.tdbold {
+  font-weight: bold;
+}
+
+#bas {
+  display: block;
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+
+/*Block 2 - Experience*/
+
+#bloc2 {
+  background-color: white;
+  height: 98vh;
+  padding: 2vh 5vh 0vh 5vh;
+  display: block;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.hrbloc2 {
+  margin-left: 55px;
+  margin-bottom: 35px;
+}
+
+#experience {
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  h1 {
+    font-size: 35px;
+    color: $color_vert;
+    display: inline;
+    margin-left: 40px;
+  }
+}
+
+.textexperience {
+  border-left: 2px solid #40A798;
+  margin-left: 15px;
+  margin-bottom: 25px;
+}
+
+.textexperiencebis {
+  border-left: 2px solid #40A798;
+  margin-left: 15px;
+}
+
+#experience {
+  h2 {
+    display: block;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 19px;
+    color: $color_vert;
+    @include marginG;
+    text-transform: uppercase;
+  }
+  h3 {
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 21px;
+    color: #40A798;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  h4 {
+    @include marginG;
+    font-size: 18.5px;
+    color: $color_vert;
+  }
+  p {
+    @include marginG;
+    font-size: 18px;
+    color: $color_vert;
+  }
+  i {
+    font-size: 35px;
+    color: #40A798;
+  }
+}
+
+
+/*Bloc 2 - Diplome*/
+
+#diplome {
+  display: inline-block;
+  width: 45%;
+  float: right;
+  padding: 10px;
+  padding-bottom: 0px;
+  i {
+    font-size: 35px;
+    color: #40A798;
+  }
+  h1 {
+    font-size: 35px;
+    color: $color_vert;
+    display: inline;
+    margin-left: 40px;
+    font-size: 35px;
+    display: inline;
+    margin-left: 40px;
+  }
+}
+
+.textdiplome {
+  border-left: 2px solid #40A798;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.textdiplomebis {
+  border-left: 2px solid #40A798;
+  margin-left: 15px;
+}
+
+#diplome {
+  h2 {
+    display: block;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 19px;
+    color: $color_vert;
+    @include marginG;
+    text-transform: uppercase;
+  }
+  h3 {
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 21px;
+    color: #40A798;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  h4 {
+    @include marginG;
+    font-size: 18.5px;
+    color: $color_vert;
+  }
+  p {
+    @include marginG;
+    font-size: 18px;
+    color: $color_vert;
+  }
+}
+
+#bloc3 {
+  background-color: rgba(64, 167, 152, 0.85);
+  height: 90vh;
+  padding: 5vh 5vh 5vh 5vh;
+  display: block;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+#competence {
+  color: $color_rose;
+  display: inline-block;
+  width: 42%;
+  padding: 10px;
+  margin-right: 3%;
+  .fa-lightbulb-o {
+    font-size: 35px;
+    display: inline-block;
+  }
+  h1 {
+    font-size: 35px;
+    color: $color_rose;
+    display: inline;
+    margin-left: 40px;
+  }
+  h2 {
+    font-size: 25px;
+    color: $color_rose;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 200px;
+  }
+}
+
+.text-competence {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  p {
+    margin-left: 40px;
+    padding: 7px 0px 7px 0px;
+    color: $color_vert;
+  }
+}
+
+#interet {
+  color: $color_rose;
+  display: inline-block;
+  width: 43%;
+  padding: 10px;
+  margin-left: 6%;
+  vertical-align: top;
+  .fa-globe {
+    font-size: 35px;
+    display: inline-block;
+  }
+  h1 {
+    font-size: 35px;
+    color: $color_rose;
+    display: inline;
+    margin-left: 40px;
+  }
+}
+
+.text-interet {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-left: 40px;
+  p {
+    margin-left: 40px;
+    padding: 7px 0px 7px 0px;
+    color: $color_rose;
+    display: inline-block;
+    font-size: 22px;
+  }
+  .fa-gamepad, .fa-film, .fa-futbol-o {
+    border: 2px solid $color_vert;
+    border-radius: 50%;
+    padding: 17px;
+  }
+}
+
+.qualite {
+  margin-top: 35px;
+  ul {
+    text-align: center;
+  }
+}
+
+.liste-qualite {
+  font-size: 22px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.fa-square {
+  font-size: 20px;
+  color: $color_vert;
+  margin-right: 7px;
+  margin-left: 4px;
+}
+
+footer {
+  background-color: $color_rose;
+  height: 100vh;
+  padding: 2vh 5vh 0vh 5vh;
+}
+
+.containerInscription {
+  padding: 4%;
+  background-color: $color_rose;
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    color: $color_vert;
+  }
+  label {
+    color: $color_vert;
+  }
+  form {
+    margin: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.inputtextformulaire {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.inputsubmitformulaire {
+  width: 100%;
+  background-color: #404040;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 8px 8px 4px #888888;
+}
+
+.icone {
+  text-align: center;
+  li {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background: url("../image/sprite_reseaux_sociaux.png") no-repeat;
+  }
+  .icone-1 {
+    background-position: 0% bottom;
+  }
+  .icone-2 {
+    background-position: 25% bottom;
+  }
+  .icone-3 {
+    background-position: 50% bottom;
+  }
+  .icone-4 {
+    background-position: 75% bottom;
+  }
+  .icone-5 {
+    background-position: 100% bottom;
+  }
+}
